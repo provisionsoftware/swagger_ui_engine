@@ -189,21 +189,21 @@ templates['main'] = template({"1":function(container,depth0,helpers,partials,dat
 },"14":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "  , <span style=\"font-variant: small-caps\" data-sw-translate>api version</span>: "
-    + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || helpers.helperMissing).call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.info : depth0)) != null ? stack1.version : stack1),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n    ";
+  // return "  , <span style=\"font-variant: small-caps\" data-sw-translate>api version</span>: "
+  //   + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || helpers.helperMissing).call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.info : depth0)) != null ? stack1.version : stack1),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
+  //   + "\n    ";
 },"16":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing;
 
-  return "    <span style=\"float:right\"><a target=\"_blank\" href=\""
-    + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.validatorUrl : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
-    + "/debug?url="
-    + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.url : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
-    + "\"><img id=\"validator\" src=\""
-    + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.validatorUrl : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
-    + "?url="
-    + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.url : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
-    + "\"></a>\n    </span>\n";
+  // return "    <span style=\"float:right\"><a target=\"_blank\" href=\""
+  //   + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.validatorUrl : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
+  //   + "/debug?url="
+  //   + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.url : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
+  //   + "\"><img id=\"validator\" src=\""
+  //   + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.validatorUrl : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
+  //   + "?url="
+  //   + ((stack1 = (helpers.escape || (depth0 && depth0.escape) || alias2).call(alias1,(depth0 != null ? depth0.url : depth0),{"name":"escape","hash":{},"data":data})) != null ? stack1 : "")
+  //   + "\"></a>\n    </span>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {};
 
