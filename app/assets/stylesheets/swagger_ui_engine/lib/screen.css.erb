@@ -1,3 +1,5 @@
+<% header_color = SwaggerUiEngine.configuration.header_color || '#89BF04' %>
+
 /* Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org> */
 .swagger-section pre code {
   display: block;
@@ -1421,7 +1423,7 @@
   cursor: pointer;
 }
 .swagger-section #header {
-  background-color: #17438a;
+  background-color: <%= header_color %>;
   padding: 9px 14px 19px 14px;
   height: 23px;
   min-width: 775px;

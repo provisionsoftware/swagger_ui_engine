@@ -17,6 +17,9 @@ module SwaggerUiEngine
       swagger_url
       translator_enabled
       validator_enabled
+      explore_enabled
+      header_color
+      title
     ).freeze
 
     attr_accessor(*OPTIONS)

@@ -19,6 +19,14 @@ module SwaggerUiEngine
       configuration.validator_enabled || false
     end
 
+    def explore_enabled?
+      configuration.explore_enabled
+    end
+
+    def title
+      configuration.title || 'Swagger'
+    end
+
     def configuration
       SwaggerUiEngine.configuration
     end

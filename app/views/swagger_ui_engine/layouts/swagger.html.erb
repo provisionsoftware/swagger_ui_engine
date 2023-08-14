@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <title>Swagger UI</title>
-    <link rel="icon" type="image/png" href="<%= image_path('swagger_ui_engine/favicon-32x32.png') %>" sizes="32x32" />
-    <link rel="icon" type="image/png" href="<%= image_path('swagger_ui_engine/favicon-16x16.png') %>" sizes="16x16" />
+    <title><%= title %></title>
+    <link rel="icon" type="image/png" href="<%= image_path('swagger_ui_engine/favicon.png') %>" />
 
     <%= stylesheet_link_tag "swagger_ui_engine/application", media: "screen" %>
     <%= stylesheet_link_tag "swagger_ui_engine/print", media: "print" %>
@@ -18,13 +17,15 @@
   <body class="swagger-section">
     <div id='header'>
       <div class="swagger-ui-wrap">
-        <a id="logo" href="http://swagger.io"><img class="logo__img" alt="swagger" height="30" width="30" src="<%= image_path('swagger_ui_engine/logo_small.png') %>" /><span class="logo__title">swagger</span></a>
+        <a id="logo" href="."><img class="logo__img" alt="swagger" height="30" width="30" src="<%= image_path('swagger_ui_engine/logo.png') %>" /><span class="logo__title"><%= title %></span></a>
 
-        <form id='api_selector'>
-          <!--div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div-->
-          <div id='auth_container'></div>
-          <!--div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div-->
-        </form>
+        <% if explore_enabled? %>
+          <form id='api_selector'>
+            <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
+            <div id='auth_container'></div>
+            <div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div>
+          </form>
+        <% end %>
       </div>
 
     </div>

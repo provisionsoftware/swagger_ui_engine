@@ -1,6 +1,7 @@
 module SwaggerUiEngine
   class ApplicationController < ActionController::Base
     include SwaggerUiEngine::AuthConfigParser
+    helper SwaggerUiEngine::ConfigParser
 
     protect_from_forgery with: :exception
     layout false
