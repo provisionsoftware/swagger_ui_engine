@@ -12,3 +12,5 @@
 //= require 'swagger_ui_engine/lib/jsoneditor.min.js'
 //= require 'swagger_ui_engine/lib/marked.js'
 //= require 'swagger_ui_engine/lib/swagger-oauth.js'
+//= require 'swagger_ui_engine/lang/translator.js'
+//= require 'swagger_ui_engine/lang/ru.js'
