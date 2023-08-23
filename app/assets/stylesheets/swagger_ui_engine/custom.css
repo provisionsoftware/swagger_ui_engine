@@ -5,3 +5,23 @@
 .swagger-return-link {
   padding-bottom: 30px;
 }
+
+/*скрытие ненужных элементов в таблице со списком параметров к запросу*/
+table.fullwidth.parameters thead tr th:nth-of-type(2) {
+  display: none;
+}
+table.fullwidth.parameters thead tr th:nth-of-type(4) {
+  display: none;
+}
+table.fullwidth.parameters tbody tr td:nth-of-type(2) {
+  display: none;
+}
+table.fullwidth.parameters tbody tr td:nth-of-type(4) {
+  display: none;
+}
+
+/*выравнивание элементов в таблице со списком параметров к запросу*/
+table.fullwidth.parameters thead tr th {
+  width: auto !important;
+  max-width: none !important;
+}
