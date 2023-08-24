@@ -7,16 +7,16 @@
 }
 
 /*скрытие ненужных элементов в таблице со списком параметров к запросу*/
-table.fullwidth.parameters thead tr th:nth-of-type(2) {
-  display: none;
-}
 table.fullwidth.parameters thead tr th:nth-of-type(4) {
+  /*  Тип параметра*/
   display: none;
 }
-table.fullwidth.parameters tbody tr td:nth-of-type(2) {
+table.fullwidth.parameters tbody tr td input {
+  /*  Значение*/
   display: none;
 }
 table.fullwidth.parameters tbody tr td:nth-of-type(4) {
+  /*  Тип параметра*/
   display: none;
 }
 
