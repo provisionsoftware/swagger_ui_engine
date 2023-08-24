@@ -15,6 +15,7 @@ module SwaggerUiEngine
       oauth_query_string_params
       request_headers
       swagger_url
+      api_versions_description
       translator_enabled
       validator_enabled
       explore_enabled
