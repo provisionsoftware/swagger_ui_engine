@@ -24,4 +24,5 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rails', '>= 6'
   s.add_runtime_dependency 'sassc-rails'
+  s.add_runtime_dependency 'ffi', '~> 1.15.5'
 end
