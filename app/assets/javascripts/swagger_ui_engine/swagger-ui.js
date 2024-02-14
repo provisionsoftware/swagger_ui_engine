@@ -6997,6 +6997,8 @@ Operation.prototype.getType = function (param) {
     str = 'double';
   } else if (type === 'boolean') {
     str = 'boolean';
+  } else if (type === 'json') {
+    str = 'json';
   } else if (type === 'array') {
     isArray = true;
 
