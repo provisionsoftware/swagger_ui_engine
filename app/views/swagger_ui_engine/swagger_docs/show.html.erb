@@ -20,6 +20,7 @@
           url: url,
           validatorUrl: "<%= @validator_url %>",
           oauth2RedirectUrl: "<%= oauth2_swagger_docs_url %>",
+          bearerToken: "<%= @bearer_token %>",
           dom_id: "swagger-ui-container",
           supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
           onComplete: function(swaggerApi, swaggerUi){

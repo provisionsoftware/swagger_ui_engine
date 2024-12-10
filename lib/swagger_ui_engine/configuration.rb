@@ -21,6 +21,7 @@ module SwaggerUiEngine
       explore_enabled
       header_color
       title
+      bearer_token
     ).freeze
 
     attr_accessor(*OPTIONS)

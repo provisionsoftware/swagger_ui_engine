@@ -6,7 +6,8 @@ module SwaggerUiEngine
     model_rendering:  'schema',
     request_headers:  false,
     validator_url:    '//online.swagger.io/validator',
-    api_versions_description: {}
+    api_versions_description: {},
+    bearer_token: ''
   }.freeze
 
   OAUTH2_DEFAULTS = {
